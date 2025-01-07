@@ -24,6 +24,7 @@ class TestBooksCollector:
 
 import pytest
 
+class TestBooksCollectorNew:
     @pytest.fixture
     def collector(self):
         return BooksCollector()
